@@ -20,7 +20,7 @@ You can modify the parser code to add additional parsing rules or handle specifi
 
 ## Sample use
 here is a lisp code we will test it and see the results
-```
+``` lisp
 ; write Lisp Program to calculate factorial
 (setq  c  1)
 (setq  fact  1)
