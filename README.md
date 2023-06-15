@@ -19,7 +19,7 @@ You can modify the parser code to add additional parsing rules or handle specifi
 - Parse Tree: The parse tree represents the hierarchical structure of the parsed Lisp code. the parse tree is generated using the nltk library. It represents the relationships between different components of the Lisp code, such as program structures, lists, and atoms.
 
 ## Sample use
-here is a lisp code we will test it and see the results
+here is the lisp code test3.lisp in lisp code folder we will test it and see the results
 ``` lisp
 ; write Lisp Program to calculate factorial
 (setq  c  1)
