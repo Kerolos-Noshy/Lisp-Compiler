@@ -2,9 +2,9 @@
 ## Overview
 This is a group project for a Lisp scanner and parser developed as part of Design of Compilers course. It aims to scan and analyze the structure of Lisp code and generate a parse tree representation. The parser is implemented in Python and uses the enum, re, pandas, tkinter, pandastable, and nltk libraries.
 
-The parser consists of two main components: tokenization and parsing. The tokenization process involves identifying and categorizing different elements in the Lisp code, such as keywords, operators, identifiers, constants, and errors. The tokens are stored in a list for further processing.
+The parser consists of two main components: scanner and parsing. The scanner process involves identifying and categorizing different elements in the Lisp code, such as keywords, operators, identifiers, constants, and errors. The tokens are stored in a list for further processing.
 
-The parsing process utilizes the tokens generated from tokenization to build a parse tree. The parse tree represents the hierarchical structure of the Lisp code, with each node in the tree corresponding to a specific component of the code. The parser uses recursive functions to traverse the tokens and construct the parse tree.
+The parsing process utilizes the tokens generated from scanner to build a parse tree. The parse tree represents the hierarchical structure of the Lisp code, with each node in the tree corresponding to a specific component of the code. The parser uses recursive functions to traverse the tokens and construct the parse tree.
 
 The code includes a graphical user interface (GUI) using the tkinter library in Python. The GUI allows users to input source code path and perform scanning and parsing operations on the code. Here's a description of the token stream window and the parse tree generated using the nltk library
 
