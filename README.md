@@ -13,7 +13,7 @@ To use the parser, you need to run this code and enter the path of Lisp code as 
 
 You can modify the parser code to add additional parsing rules or handle specific Lisp constructs as needed. The provided code serves as a starting point for developing a more comprehensive Lisp parser.
 
-## Futures
+## Features
 - Error Handling: Improve the error reporting and handling mechanism to provide more informative error messages when encountering invalid Lisp code.
 - Token Stream: The token stream window displays the lexemes (individual tokens) extracted from the source code and their corresponding types. It provides a tabular view of the token stream, showing each lexeme and its associated token type. The token types can include keywords, operators, identifiers, constants, and errors.
 - Parse Tree: The parse tree represents the hierarchical structure of the parsed Lisp code. the parse tree is generated using the nltk library. It represents the relationships between different components of the Lisp code, such as program structures, lists, and atoms.
